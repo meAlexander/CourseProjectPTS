@@ -1,0 +1,18 @@
+.root{
+	-fx-background-color:black;
+	-fx-border-color:white;
+	-fx-border-radius: 5.0 5.0 5.0 5.0;
+}
+.label{
+	-fx-text-fill:white;
+	-fx-font-size:14px;
+}
+.button{
+	-fx-background-color:transparent;
+	-fx-border-radius: 5.0 5.0 5.0 5.0;
+	-fx-border-color:rgb(32.0,181.0,230.0);
+	-fx-text-fill:white;
+}
+.button:hover{
+	-fx-border-color:white;
+}

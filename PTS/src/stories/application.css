@@ -1,0 +1,113 @@
+.text-field{
+ -fx-background-image:url("/serach.png");
+    -fx-background-repeat: no-repeat;
+   -fx-background-position: center;
+   -fx-background-color:transparent;
+  /* -fx-border-color:rgb(32.0,181.0,230.0);*/ 
+  -fx-border-color:white;
+   -fx-border-radius: 5.0 5.0 5.0 5.0;
+   -fx-border-width:1.0 0.0 1.0 0.0;
+  
+  -fx-text-inner-color: white;
+      
+}
+.table-view:row-selection:constrained-resize{
+	-fx-background-color:transparent;
+}
+.table-view:row-selection:constrained-resize .column-header-background{
+	-fx-background-color:transparent;
+}
+.table-view:row-selection:constrained-resize .column-header-background .filler{
+	-fx-background-color:black;
+}
+.table-view:row-selection:constrained-resize .placeholder .label .text{
+	-fx-fill:white;
+}
+
+.table-view:row-selection:constrained-resize .column-header-background .nested-column-header .table-column{
+	-fx-background-color:transparent;
+	  -fx-border-width:0.0 1.0 0.0 0.0;
+-fx-border-color:white;
+}
+.table-view:row-selection:constrained-resize .column-header-background .nested-column-header .table-column .label{
+	-fx-text-fill:white;
+}
+.table-view:row-selection:constrained-resize .column-header-background .show-hide-columns-button{
+	-fx-background-color:white;
+}
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:vertical{
+	-fx-background-color:transparent ;
+	  -fx-border-width:0.0 0.0 0.0 1.0;
+-fx-border-color:white;
+	-fx-pref-width: 14.5;
+    -fx-padding: 3.0;
+}
+
+
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:horizontal{
+	-fx-background-color:transparent ;
+	-fx-background-color:transparent ;
+	
+	-fx-pref-height: 14.5;
+    -fx-padding: 3.0;
+}
+.table-view:row-selection:constrained-resize .virtual-flow .corner{
+	-fx-background-color:transparent ;
+}
+.table-view:row-selection:constrained-resize .virtual-flow .table-row-cell{
+	-fx-background-color:transparent ;
+}
+.table-view:row-selection:constrained-resize .virtual-flow .table-row-cell:hover{
+	-fx-text-fill:linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(179.0,179.0,179.0) 0.0, rgb(102.0,102.0,102.0) 100.0);
+  -fx-border-color:white;
+	-fx-border-width: 1.0 0.0 1.0 0.0;
+}
+.table-view:row-selection:constrained-resize .virtual-flow .table-row-cell:selected{
+	-fx-text-fill:linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(0.0,128.0,192.0) 0.0, rgb(10.0,76.0,181.0) 100.0);
+	 -fx-border-color:linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(10.0,76.0,181.0) 0.0, rgb(0.0,128.0,192.0) 100.0);
+	 -fx-border-width: 1.0 0.0 1.0 0.0;
+	-fx-font-size:15.0;
+}
+.table-view:row-selection:constrained-resize .virtual-flow .clipped-container .sheet .table-row-cell .text{
+	-fx-text-fill:white;
+	-fx-fill:white;
+}
+
+/*CHECK-BOX */
+.check-box:determinate .text{
+	-fx-fill:white;
+}
+.check-box:determinate .box{
+	-fx-border-color:rgb(0.0,128.0,192.0);
+	-fx-border-width: 1.0 1.0 1.0 1.0;
+	-fx-border-radius: 5.0 5.0 5.0 5.0;
+	-fx-background-color:transparent;
+}
+ .check-box:selected > .box > .mark{
+    -fx-background-color: white;
+}
+
+/* RADIO BUTTON */
+.radio-button .text{
+	-fx-fill:white;
+}
+.radio-button .radio{
+-fx-border-color:rgb(0.0,128.0,192.0);
+	-fx-border-width: 1.0 1.0 1.0 1.0;
+	-fx-border-radius: 5.0 5.0 5.0 5.0;
+	-fx-background-color:transparent;
+}
+.radio-button:selected .radio .dot{
+	-fx-background-color:white;
+}
+/* BUTTON */
+.button-show{
+	-fx-background-color:transparent;
+	-fx-border-radius: 5.0 5.0 5.0 5.0;
+	-fx-border-color:rgb(32.0,181.0,230.0);
+	-fx-text-fill:white; 
+}
+
+.button-show:hover{
+	-fx-border-color:white;
+}
